@@ -11,11 +11,15 @@ $green: #64a19d;
 .wrapper {
     max-width: 1920px;
 }
+
+
 .header {
 
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 100px;
+
 
     &__logo {
         font-size: 24px;

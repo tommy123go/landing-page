@@ -11,6 +11,7 @@ body {
 }
 
 .header {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 100px;
@@ -218,7 +219,6 @@ body {
   .header {
     padding: 1rem 2rem;
     display: flex;
-    flex-wrap: wrap;
   }
   .header__logo {
     line-height: 60px;
